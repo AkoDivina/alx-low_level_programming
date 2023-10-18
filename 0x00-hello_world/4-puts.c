@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-/* A C program that prints with put function
+/* main - Entry point
+ *
+ * A C program that prints with put function
  *
  * Return: Always 0 (Success)
 */
