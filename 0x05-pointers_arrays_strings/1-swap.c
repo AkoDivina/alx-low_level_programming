@@ -1,10 +1,19 @@
 #include "main.h"
 
-// to swap a new varable is created which holds the value of a, pointer a is then empty and can hold the value in b, b is then empty and can now hold the value in a 
-*c = *b
+/* swap_int - swaps the values of two integers
+ *		using two input parameters
+ *
+ * @a: input parameter 1
+ * @b: input parameter 2
+ *
+ * Return: Nothing
+*/
+
 void swap_int(int *a, int *b)
 {
-	int c = *a;
+	int c;
+
+	temp = *a;
 	*a = *b;
-	*b = *a;
+	*b = c;
 }
